@@ -1,0 +1,39 @@
+body {
+    font-family: 'Bitter', serif;
+    margin: 0;
+    background-color: #fdf9f4;
+}
+
+header > h1 {
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+    background-color: #ffebcc;
+}
+
+header > h1:hover {
+    color: #b3541e;
+}
+
+link[href^="https://fonts.googleapis.com"] {
+    display: none;
+}
+
+p:not(footer p) {
+    color: #333;
+}
+
+
+.hobbies > p > mark {
+    background-color: #ffcc80;
+}
+
+#NewJersey {
+    color: #c0392b;
+}
+
+
+.hobbies h4::before {
+    content: "★ ";
+    color: gold;
+}
+
